@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    background-color: white;
+    min-height: 100vh;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    margin-top : 20px;
+    margin-bottom: 20px;
+}
+
+.taskArea{
+    border: 1px solid lightgray;
+    margin-top: 2em;
+}
+
+.taskTabs{
+    display: flex;
+    border: 1px solid lightgray;
+    position: relative;
+}
+.taskTabs div{
+    padding: 1em;
+}
+#underLine{
+    height: 4px;
+    background-color: darkslateblue;
+    position: absolute;
+    width: 55px;
+    left: 0px;
+    top: 52px;
+    padding: 0px;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.taskDone{
+    text-decoration: line-through;
+    color: rgba(50, 50, 93, 0.25);
+}
+
+.taskTabs div {
+    cursor: pointer;
+}
