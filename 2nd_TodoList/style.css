@@ -30,6 +30,7 @@ body{
     height: 4px;
     background-color: darkslateblue;
     position: absolute;
+    /* 절대값을 주는 것 : 0,0인 왼쪽 위에서 부터 절대값 포지션을 줌  */
     width: 55px;
     left: 0px;
     top: 52px;
